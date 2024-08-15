@@ -5,6 +5,7 @@
       "outputs": ["dist/**"]
     },
     "db:migrate": {
+      "dependsOn": ["^build"],
       "outputs": ["dist/**"]
     },
     "start": {
