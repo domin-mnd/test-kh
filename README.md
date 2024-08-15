@@ -1,4 +1,6 @@
-![Overengineering 101](public/inanutshell.png)
+<p align="center">
+  <img alt="Overengineering 101" src="public/inanutshell.png" height="300" />
+</p>
 
 # Тестовое задание
 
