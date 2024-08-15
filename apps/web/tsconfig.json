@@ -1,0 +1,10 @@
+{
+  "exclude": ["node_modules"],
+  "extends": "@repo/typescript-config/vue.json",
+  "compilerOptions": {
+    "rootDir": ".",
+    "outDir": "dist",
+    "types": ["unplugin-vue-router/client", "vite/client"],
+  },
+  "include": ["src", "vite.config.ts", "typed-router.d.ts"]
+}

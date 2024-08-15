@@ -1,0 +1,27 @@
+{
+  "name": "web",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "vite preview --host 0.0.0.0 --port 8085",
+    "build": "vite build",
+    "clean": "rm -rf dist",
+    "dev": "vite --host 0.0.0.0 --port 8085 --clearScreen false",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint src/"
+  },
+  "dependencies": {
+    "@repo/ui": "workspace:*",
+    "pinia": "^2.2.1",
+    "vue": "^3.4.37",
+    "vue-router": "^4.4.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1.2",
+    "@repo/eslint-config": "workspace:*",
+    "@repo/typescript-config": "workspace:*",
+    "typescript": "^5.3.3",
+    "unplugin-vue-router": "^0.10.3",
+    "vite": "^5.1.4"
+  }
+}
